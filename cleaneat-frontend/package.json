@@ -1,0 +1,32 @@
+{
+  "name": "cleaneat-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:mock": "npm run check:hardhat && npm run genabi && next dev",
+    "dev": "npm run genabi && next dev",
+    "build": "npm run genabi && npm run check:static && next build",
+    "check:static": "node scripts/check-static.mjs",
+    "check:hardhat": "node scripts/is-hardhat-node-running.mjs",
+    "genabi": "node scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "@zama-fhe/relayer-sdk": "^0.3.0-5",
+    "ethers": "^6.13.0",
+    "idb": "^8.0.3",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@fhevm/mock-utils": "0.3.0-1",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.0",
+    "vercel": "^48.11.0"
+  }
+}
