@@ -9,6 +9,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
  * @notice Privacy-preserving canteen rating system using FHEVM
  * @dev Users submit encrypted ratings (nutrition & satisfaction scores)
  *      Aggregates are computed on encrypted data without revealing individual scores
+ *      Supports 5 food stalls with encrypted rating aggregation
  */
 contract CleanEat is ZamaEthereumConfig {
     // Stall count (5 stalls: A, B, C, D, E)
