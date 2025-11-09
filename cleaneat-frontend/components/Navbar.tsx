@@ -20,6 +20,8 @@ export function Navbar() {
     { href: "/dashboard", label: "Dashboard", icon: "📊", requiresWallet: true },
   ];
 
+  // Navigation component with wallet integration
+
   const formatAddress = (addr: string | null) => {
     if (!addr) return "Unknown";
     return `${addr.substring(0, 6)}...${addr.substring(addr.length - 4)}`;
