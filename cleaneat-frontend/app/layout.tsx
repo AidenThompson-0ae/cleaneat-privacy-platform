@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700"] }
 export const metadata: Metadata = {
   title: "NorthTing CleanEat - Privacy-Preserving Canteen Rating",
   description: "Rate canteen dishes with end-to-end encryption using FHEVM technology",
+  keywords: ["FHEVM", "privacy", "encryption", "canteen", "rating"],
 };
 
 export default function RootLayout({

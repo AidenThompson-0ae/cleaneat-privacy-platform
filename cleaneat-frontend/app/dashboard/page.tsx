@@ -7,6 +7,7 @@ import { useCleanEat } from "../../hooks/useCleanEat";
 import { BrowserProvider } from "ethers";
 import { GenericStringStorage } from "../../fhevm/GenericStringStorage";
 
+// Food stall definitions for the canteen
 const STALLS = [
   { name: "Stall A - Sichuan Cuisine", icon: "🌶️" },
   { name: "Stall B - Cantonese Cuisine", icon: "🥢" },
