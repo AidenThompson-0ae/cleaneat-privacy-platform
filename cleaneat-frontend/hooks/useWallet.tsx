@@ -32,7 +32,7 @@ export function WalletProvider({ children }: { children: ReactNode }) {
   const [isConnecting, setIsConnecting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Silent reconnect on page load
+  // Silent reconnect on page load using eth_accounts
   useEffect(() => {
     if (!provider) return;
 

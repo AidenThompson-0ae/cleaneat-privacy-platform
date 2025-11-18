@@ -1,6 +1,7 @@
 /**
  * FHEVM instance management
  * Based on reference implementation from frontend/fhevm/internal/fhevm.ts
+ * Handles both mock and relayer SDK integration
  */
 
 import { isAddress, Eip1193Provider, JsonRpcProvider } from "ethers";
