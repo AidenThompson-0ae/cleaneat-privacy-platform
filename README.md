@@ -156,13 +156,14 @@ The frontend is configured for static export and can be deployed to Vercel or an
 
 ## Technologies
 
-- **FHEVM v0.9**: Fully Homomorphic Encryption Virtual Machine
+- **FHEVM v0.9.1**: Fully Homomorphic Encryption Virtual Machine
 - **Hardhat**: Ethereum development environment
 - **Next.js 15**: React framework with static export
 - **TypeScript**: Type-safe development
 - **Tailwind CSS**: Utility-first CSS framework
-- **ethers.js v6**: Ethereum library
+- **ethers.js v6.13.0**: Ethereum library
 - **Relayer SDK v0.3.0-5**: FHEVM Relayer integration
+- **Mock Utils v0.3.0-1**: FHEVM Mock utilities for local development
 
 ## License
 
